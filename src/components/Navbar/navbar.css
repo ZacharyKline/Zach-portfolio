@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    font-family: Krona One, sans-serif;
+
+}
+
+.navbar{
+    width: 100%;
+    margin: 0;
+    background-color: white;
+}

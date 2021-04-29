@@ -6,16 +6,16 @@
 }
 
 .iconBox {
-    width: 50%;
+    width: 45%;
     margin: 0 auto;
 }
 svg {
-    width: 100px;
+    width: 75px;
     margin: 20px;
 }
 
 svg:hover{
-    width: 105px;
+    width: 85px;
     border: 1px solid rgb(218, 216, 216);
     border-radius: 10%;
 }

@@ -1,8 +1,11 @@
 
 function Contact(props) {
     return (
-        <div class='contact'>
+        <div className='contact'>
             <h1>Contact Me:</h1>
+            
         </div>
     )
 }
+
+export default Contact
