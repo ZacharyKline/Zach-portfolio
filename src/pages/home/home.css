@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Krona One, sans-serif;
+
+}
+
+.iconBox {
+    width: 50%;
+    margin: 0 auto;
+}
+svg {
+    width: 100px;
+    margin: 20px;
+}
+
+svg:hover{
+    width: 105px;
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 10%;
+}
