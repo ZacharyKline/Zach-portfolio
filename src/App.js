@@ -1,7 +1,6 @@
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Projects from "./pages/projects/projects";
-import Contact from "./pages/contact/Contact";
 import "./App.css";
 import Foots from "./components/Footer/footer";
 
@@ -11,22 +10,25 @@ import { Route, Switch } from "react-router-dom";
 function App() {
 	return (
 		<div className="App">
-			<Navbar />
-			<Switch>
-				<Route exact path="/">
-					<Home />
-				</Route>
-				<Route exact path="/about">
-					<About />
-				</Route>
-				<Route exact path="/projects">
-					<Projects />
-				</Route>
-				<Route exact path="/contact">
-					<Contact />
-				</Route>
-			</Switch>
-			<Foots />
+			<div className="navey">
+				<Navbar />
+			</div>
+			<div className="bodyboy">
+				<Switch>
+					<Route exact path="/">
+						<Home />
+					</Route>
+					<Route exact path="/about">
+						<About />
+					</Route>
+					<Route exact path="/projects">
+						<Projects />
+					</Route>
+				</Switch>
+			</div>
+			<div className='foots'>
+				<Foots />
+			</div>
 		</div>
 	);
 }

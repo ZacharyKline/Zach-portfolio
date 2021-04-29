@@ -1,11 +1,12 @@
-
+import { Layout } from "antd";
+const { Content } = Layout;
 
 function Projects(props) {
-    return (
-        <div className='projects'>
-            <h1>Projects</h1>
-        </div>
-    )
+	return (
+		<div className="projects">
+			<h1>Projects</h1>
+		</div>
+	);
 }
 
-export default Projects
+export default Projects;

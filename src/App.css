@@ -5,8 +5,22 @@
     font-family: Krona One, sans-serif;
 
 }
+.foots{
+  height: 10%;
+  margin: 10px;
+  padding:10px;
+  
+}
+.navey {
+position: fixed;
+width: 100%;
+top: 0;
+}
 .App {
   text-align: center;
+}
+.bodyboy{
+  margin-top: 3%;
 }
 
 .App-logo {

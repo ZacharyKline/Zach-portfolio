@@ -31,9 +31,6 @@ class Navbar extends React.Component {
 				<Menu.Item key="projects">
 					<Link to="/projects">Projects</Link>
 				</Menu.Item>
-				<Menu.Item key="contact">
-					<Link to='/contact'>Contact</Link>
-				</Menu.Item>
 				<Menu.Item>
 					<a
 						target="_blank"
