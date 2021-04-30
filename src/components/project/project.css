@@ -1,0 +1,17 @@
+.singleProject {
+    margin: 10px;
+    width: 50vh;
+    border: 2px solid rgb(193, 193, 193);
+    padding: 5px;
+    height: fit-content;
+}
+.singleProject img{
+    width: 45vh;
+    
+}
+.singleProject:hover{
+    box-shadow: 3px 3px 3px rgb(154, 154, 154);
+}
+
+.projectsSpot{
+}

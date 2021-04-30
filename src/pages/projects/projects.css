@@ -1,0 +1,14 @@
+.projects{
+    width: 85%;
+    margin: auto;
+    z-index: -1;
+    display:inline;
+        display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.projectsList{
+    margin-top:5%;
+    width: 100%;
+
+}
