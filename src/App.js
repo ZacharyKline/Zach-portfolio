@@ -23,7 +23,7 @@ function App() {
 					</Route>
 					<Route exact path="/projects">
 						<Projects />
-					</Route>
+          </Route>
 				</Switch>
 			</div>
 			<div className='foots'>
