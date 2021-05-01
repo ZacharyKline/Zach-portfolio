@@ -1,8 +1,7 @@
 import { Menu } from "antd";
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 import Resume from "../../assets/other/ZacharyKlineResume.pdf";
-
 
 class Navbar extends React.Component {
 	state = {
@@ -42,15 +41,17 @@ class Navbar extends React.Component {
 				</Menu.Item>
 				<Menu.Item>
 					<a target="_blank" href="https://github.com/ZacharyKline">
-                        Github
+						Github
 					</a>
-                </Menu.Item>
-                <Menu.Item>
-                    <a target='_blank' href={Resume}>Resume</a>
-                </Menu.Item>
+				</Menu.Item>
+				<Menu.Item>
+					<a target="_blank" href={Resume}>
+						Resume
+					</a>
+				</Menu.Item>
 			</Menu>
 		);
 	}
 }
 
-export default Navbar
+export default Navbar;
