@@ -23,7 +23,7 @@ function About(props) {
 							Code for America
 						</a>
 						. I am looking for opportunities both locally and internationally. If you have any questions about me please reach out at
-						<a href="mailto: zkline888@gmail.com">zkline888@gmail.com</a>.
+						<a href="mailto: zkline888@gmail.com"> zkline888@gmail.com</a>.
 					</p>
 				</Content>
 			</Layout>
