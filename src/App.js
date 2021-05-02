@@ -15,13 +15,13 @@ function App() {
 			</div>
 			<div className="bodyboy">
 				<Switch>
-					<Route exact path="/">
+					<Route exact path="/Zach-portfolio">
 						<Home />
 					</Route>
-					<Route exact path="/about">
+					<Route exact path="/Zach-portfolio/about">
 						<About />
 					</Route>
-					<Route exact path="/projects">
+					<Route exact path="/Zach-portfolio/projects">
 						<Projects />
           </Route>
 				</Switch>

@@ -23,13 +23,13 @@ class Navbar extends React.Component {
 				className="navbar"
 			>
 				<Menu.Item key="home">
-					<Link to="/">Home</Link>
+					<Link to="/Zach-portfolio">Home</Link>
 				</Menu.Item>
 				<Menu.Item key="about">
-					<Link to="/about">About Me</Link>
+					<Link to="/Zach-portfolio/about">About Me</Link>
 				</Menu.Item>
 				<Menu.Item key="projects">
-					<Link to="/projects">Projects</Link>
+					<Link to="/Zach-portfolio/projects">Projects</Link>
 				</Menu.Item>
 				<Menu.Item>
 					<a
